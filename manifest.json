@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Justifeye",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.wikipedia.org/*"
+            ],
+            "js": [
+                "jquery-3.4.1.min.js",
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icons8-eye-unchecked-100.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [ "webNavigation", "*://*/*" ]
+}

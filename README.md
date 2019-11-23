@@ -14,6 +14,6 @@ Only for typography addicted people. More features coming soon.
 4. The extension icon should now appear on the right of the address bar
 
 ### Usage
-The current version of Justifeye will work only on the Wikipedia website. Give it a try!
+Current version of Justifeye will work only on the Wikipedia website. Give it a try!
 
 When you are visiting [Wikipedia](https://wikipedia.org/) you can justify articles by clicking the extension icon near the address bar.
